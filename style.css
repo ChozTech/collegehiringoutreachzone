@@ -1,0 +1,64 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+.form-card, .result-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+  backdrop-filter: blur(10px);
+}
+h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #fff;
+}
+.highlight {
+  color: #1da1f2;
+}
+.subtitle {
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  color: #ccc;
+}
+input, select {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  background: #f2f2f2;
+  color: #333;
+}
+button {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  background: #1da1f2;
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+button:hover {
+  background: #0d8ae1;
+}
+.result-card {
+  margin-top: 2rem;
+  white-space: pre-wrap;
+}
